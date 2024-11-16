@@ -1,26 +1,27 @@
 body {
     margin: 0;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 102, 255);
+    font-family: Arial, sans-serif;
 }
 
 header {
      padding: 10vh;
   text-align: center;
-  background-image: url("https://www.arwole.ch/wp-content/uploads/hoval_logo.png");
+  background-image: url("https://www.snowcarbon.co.uk/_ipx/q_80/https://admin.snowcarbon.co.uk/storage/resortInfo/29031/sc-media-d68749676c58c4874cda5c8eea64d6c1-alpe-dhuez-lionel-royet-ot-alpe-dhuez-4-crop960.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 #naslov {
-  color: white;
+  color: rgb(0, 0, 0);
   padding: 40vh;
   text-align: center;
   font-size: 80px;
 }
 .button {
-  background-color: #606bcc;
+  background-color: #000000;
   border: 2px solid transparent;
-  color: white;
+  color: rgb(255, 255, 255);
   padding: 5px 16px;
   text-align: center;
   text-decoration: none;
@@ -32,32 +33,48 @@ header {
   transition: border-color 0.3s ease;
 }
 nav {
-    padding: 2vh;
+
+    padding: 1vh;
     text-align: center;
-    background-color: orange;
+    background-color: rgb(0, 162, 255);
+    
 }
 
 main {
     display: flex;
     min-height: 100vh;
+    
 }
 
 aside {
-    width: 15%;
-    float: left;
+    width: 25%; 
+    margin: 1vh;
     text-align: left;
-    background-color: yellow;
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 20px;
+    padding: 1vh; 
 }
 
 section {
+    margin: 1vh;
     width: 85%;
     float: left;
     text-align: center;
-    background-color: cyan;
+  background-color: white;
+  border-radius: 20px;
 }
 
 footer {
     padding: 2vh;
     text-align: center;
-    background-color: lime;
+    background-color: rgb(0, 68, 255);
+    border-radius: 20px;
+}
+footer .kontakti a img {
+  width: 24px;
+  margin: 0 10px;
+}
+
+footer p {
+  font-size: large;
 }

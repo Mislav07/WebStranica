@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+     padding: 10vh;
+  text-align: center;
+  background-image: url("https://www.arwole.ch/wp-content/uploads/hoval_logo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#naslov {
+  color: white;
+  padding: 40vh;
+  text-align: center;
+  font-size: 80px;
+}
+.button {
+  background-color: #606bcc;
+  border: 2px solid transparent;
+  color: white;
+  padding: 5px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: border-color 0.3s ease;
+}
+nav {
+    padding: 2vh;
+    text-align: center;
+    background-color: orange;
+}
+
+main {
+    display: flex;
+    min-height: 100vh;
+}
+
+aside {
+    width: 15%;
+    float: left;
+    text-align: left;
+    background-color: yellow;
+}
+
+section {
+    width: 85%;
+    float: left;
+    text-align: center;
+    background-color: cyan;
+}
+
+footer {
+    padding: 2vh;
+    text-align: center;
+    background-color: lime;
+}

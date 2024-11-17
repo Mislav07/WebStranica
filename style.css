@@ -94,6 +94,20 @@ section {
   background-color: white;
   border-radius: 20px;
 }
+section img {
+    width: 30%; /* Adjust the size to fit your design */
+    height: auto;
+    margin: 10px;
+    border-radius: 10px; /* Add rounded corners for aesthetics */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+}
+
+section img:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
+}
+
 
 footer {
   color: white;

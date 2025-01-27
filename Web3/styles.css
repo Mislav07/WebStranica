@@ -55,12 +55,15 @@ main{
 
 section{
   text-align: center;
+  width: 98%;
+  margin-left: 5vh;
+  margin-right: 5vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   padding: 1vh;
   font-size: 20px;
   border-radius: 20px;
   border: solid 2px;
-  margin-bottom: 1vh;
-  margin-top: 1vh;
 }
 a:hover{
   color: purple;
@@ -81,6 +84,7 @@ a{
   text-align: right;
 }
 .contact-info{
+  margin: 2vh;
   display: flex;
   justify-content: space-between;
 }

@@ -1,0 +1,132 @@
+body{
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+}
+p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+.odlomak{
+  border: none;
+  border-top: 2px solid #ddd;
+  margin: 20px 0;
+}
+.obavijest{
+  font-weight: bold;
+  font-size: 25px;
+  color: blue;
+}
+#naslov{
+  color: black;
+  padding: 20vh;
+  text-align: center;
+  font-size: 80px;
+}
+nav{
+  padding: 2vh;
+  background-color: grey;
+  word-spacing: 5px;
+   border-radius: 20px;
+}
+header{
+  padding: 10vh;
+  text-align: center;
+  background-image: url('https://lh3.googleusercontent.com/proxy/savVFqpSQucOLHdtweP_Pxb26ap8LWVwVKufJqqLRCvYn0PH-1JGlp4xsTf6s3qM4i5kD32jlEN_0FZzU588LyAEl79LhipP0Iy_2pYG7EhDU3tt3YdEcjoUmhh9FktLZwIYg76dKMYCLUdt6a9Mi6AzZBYIEDtu0srO');
+  /*background-size: 75% 70%;*/
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+footer{
+  text-align: left;
+  padding: 20px;
+  border: solid 2px black;
+  border-color: black;
+  color: black;
+  background-color: #317fff;
+  border-radius: 20px;
+  font-size: 2.4vh;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section{
+  text-align: center;
+  padding: 1vh;
+  font-size: 20px;
+  border-radius: 20px;
+  border: solid 2px;
+  margin-bottom: 1vh;
+  margin-top: 1vh;
+}
+a:hover{
+  color: purple;
+}
+a:active {
+  color: red;
+}
+a:focus {
+  outline: 2px solid lightblue;
+}
+a{
+  color: black;
+}
+.lijevo{
+  text-align: left;
+}
+.desno{
+  text-align: right;
+}
+.contact-info{
+  display: flex;
+  justify-content: space-between;
+}
+.photowall img{
+  width: 300px;
+  height: auto;
+  margin: 10px;
+  border: 3px solid grey;
+  transition: transform 0.3s ease;
+}
+.photowall img:hover{
+  transform: scale(1.1);
+}
+ul{
+  list-style-type: square;
+  padding: 10px;
+}
+
+.img1{
+  position: float;
+  width: 300px;
+  height: auto;
+  margin: 50px;
+}
+.img2{
+  position: absolute;
+  width: 300px;
+  height: auto;
+  top: 200px;
+  left: 150px;
+}
+.img3{
+  position: relative;
+  width: 300px;
+  height: auto;
+}
+.img4{
+  position: fixed;
+  width: 300px;
+  height: auto;
+}
+.img5{
+  position: sticky;
+  width: 300px;
+  height: auto;
+}
+.centriranje-poruke-lijevo{
+  text-align: left;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+  <title>CSS Game</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    h1{
+      text-align: center;
+    }
+    body{
+      margin:0px;
+    }
+    .center{
+      position: absolute;
+      top:0;
+      height:100vh;
+      width:100vw;
+      display:flex;
+      align-items:center;
+      justify-content: center;
+    }
+    .box{
+      background-color: orange;
+      width:50vw;
+      height:50vw;
+    }
+    .container div:not(.middle){
+      width:10vw;
+      line-height:10vw;
+      border: 1px solid black;
+      box-sizing: border box;
+      background-color: white;
+      text-align: center;
+    }
+    .container{
+      height:50vw;
+      display:flex;
+      flex-wrap:wrap;
+      align-content: space-between;
+      justify-content: space-between;
+    }
+     .middle{
+      display: flex;
+      width: 50vw;
+      justify-content:center;
+      background-color: orange;
+    }
+  </style>
+</head>
+
+<body>
+    <h1>CSS Game</h1>
+    <div class="center">
+        <div class="box">
+            <div class="container">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div class="middle">
+                  <div>4</div>
+                </div>
+                <div>7</div>
+                <div>8</div>
+                <div>9</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
